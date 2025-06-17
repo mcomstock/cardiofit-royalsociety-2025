@@ -9,6 +9,9 @@ python -m http.server
 ```
 and navigating to the address it prints after starting.
 
+A web version of the program is also hosted
+[here](https://mcomstock.github.io/cardiofit-royalsociety-2025/).
+
 ## Interface
 
 The following section contains a brief description of the provided behavior and intended workflow
