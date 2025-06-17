@@ -271,7 +271,7 @@ require([
       apd_ends = apd_starts.map((x, idx) => x + (apds[idx] || 0) / pso.env.simulation.sample_interval);
     } else {
       actual_data = pso.env.simulation.trimmed_data[cl_idx];
-      const align_thresh = actual_data.find(x => x > 0.15);
+      const align_thresh = pso.env.simulation.align_thresh[cl_idx];
       align_index = plotting_sim_data.findIndex(x => x > align_thresh);
     }
 
